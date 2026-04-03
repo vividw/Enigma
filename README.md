@@ -8,3 +8,27 @@ Oracle-Matrix（天机矩阵）是大型多 Agent 协同与极限长文本生成
 - [`字幕版/README.md`](./字幕版/README.md)：字幕版目录说明与文件索引。
 - [`字幕版/提示词.md`](./字幕版/提示词.md)：中文主控提示词原文件。
 - [`字幕版/8.md`](./字幕版/8.md)：执行完成报告原文件。
+
+## 天机知识库文件结构
+- [`tianji/README.md`](./tianji/README.md)：天机知识库目录导航与结构说明。
+- [`tianji/index.md`](./tianji/index.md)：知识图谱总索引入口。
+- [`tianji/FINAL_REPORT.md`](./tianji/FINAL_REPORT.md)：最终阶段统计与成果概览。
+- [`tianji/statistics_report.md`](./tianji/statistics_report.md)：详细统计报告。
+- [`tianji/term_glossary.md`](./tianji/term_glossary.md)：术语对照表。
+
+```text
+tianji/
+├── README.md
+├── index.md
+├── FINAL_REPORT.md
+├── statistics_report.md
+├── term_glossary.md
+├── term_index.md
+├── cross_references.md
+├── orphan_nodes.md
+├── cluster_a/        # 宗师图谱
+├── cluster_b/        # 古典文献
+├── cluster_c/        # 数理建模
+├── cluster_d/        # 交叉学科
+└── cluster_e/        # 开源审计
+```
